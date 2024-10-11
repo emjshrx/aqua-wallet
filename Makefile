@@ -64,6 +64,6 @@ run-integration-tests:
 
 test-all: run-unit-tests run-integration-tests
 
-setup: install get-gdk get-boltz-rust generate-bindings freeze
+setup: get-gdk get-boltz-rust generate-bindings freeze
 
 PHONY: setup run-ios-emulator-mac run-android-emulator-mac run-integration-tests run-unit-tests test-all
