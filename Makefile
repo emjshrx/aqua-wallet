@@ -1,4 +1,5 @@
 SHELL := /bin/bash
+PATH  := $(PATH)
 GDK_VERSION := 0.73.0
 GDK_RELEASE_URL := https://github.com/Blockstream/gdk/releases/download/release_$(GDK_VERSION)
 
